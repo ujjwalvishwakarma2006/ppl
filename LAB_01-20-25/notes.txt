@@ -1,0 +1,66 @@
+https://mirceamalitza.com/mmalita17/HOMEPAGE/culPro/indexProlog.html
+
+The above link contains various prolog examples.
+
+https://www.swi-prolog.org/pldoc/man?section=builtinlist
+
+To be completed : Arithmetic, list operations
+
+In Prolog, the underscore (_) is a special variable called the anonymous variable. It is used when you want to represent a variable but do not care about its value. Prolog will not attempt to unify or bind the anonymous variable to anything, and every occurrence of _ is treated as a unique variable
+
+Key Features of _ (Anonymous Variable):
+Doesn't Retain Values:
+The value of _ is ignored, and it is treated as a fresh variable every time it appears.
+
+Used to Ignore Values:
+When you don't care about certain values in a rule or query, you can use _ to ignore them.
+
+No Need for Naming:
+Unlike regular variables (like X, Y), the anonymous variable does not need a name.
+
+
+
+
+
+Understanding the `|` Symbol in Prolog
+======================================
+
+The `|` symbol in Prolog is used with lists and is called the **list constructor**
+or **head-tail separator**. It allows you to split a list into its first element
+(the head) and the remaining elements (the tail).
+
+General Syntax:
+---------------
+    [Head | Tail]
+
+    - `Head`: Represents the first element of the list.
+    - `Tail`: Represents the rest of the list (a list itself).
+
+How it Works:
+-------------
+The `|` divides the list into its components. For example:
+
+    [a, b, c] = [Head | Tail].
+
+This unifies:
+    - Head = a
+    - Tail = [b, c]
+
+Examples of Using `|`
+----------------------
+
+1. **Decomposing a List:**
+   Extract the first element (head) and the rest of the list (tail):
+   ```prolog
+   decompose([Head | Tail]) :-
+       write('Head: '), write(Head), nl,
+       write('Tail: '), write(Tail).
+
+
+
+
+
+
+
+'!' is known as the cut operator in prolog
+var(x) checks if x is a varaible

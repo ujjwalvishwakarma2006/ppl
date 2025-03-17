@@ -1,0 +1,19 @@
+It is an odd type of language
+
+Whatever we want to get, we should write it in capitals
+as we can see in the screenshot
+
+We write query on the terminal
+and facts and rules in the file
+':-' uses:
+	if p -> q,
+	the we write q :- p
+	
+	for example
+	child(X, Y) :- parent(Y, X)
+
+Q: How to get the count to of number of things which have the same say cost, obviously we can see the names of all of them
+   but we want to get the count of them?
+   (putting a semicolon will get us the next element with the same property, but not the count actually)
+   ('.' also represents and)
+a: 

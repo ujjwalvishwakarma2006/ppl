@@ -1,0 +1,8 @@
+DCG(Definite clause Grammar) in prolog
+
+Modularity in prolog.
+
+constraints in prolog.
+constraint solver in prolog.
+
+constraint logic programming.
