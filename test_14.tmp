@@ -1,0 +1,2 @@
+type GenericList[T] = list[T]
+band kar

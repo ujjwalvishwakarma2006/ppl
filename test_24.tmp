@@ -1,0 +1,2 @@
+type EmptyList = list[]
+band kar

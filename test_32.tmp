@@ -1,0 +1,2 @@
+type BadParam = type Gen[T = list[T]
+band kar

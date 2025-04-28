@@ -1,0 +1,2 @@
+type DictTooMany = dict{int:str:bool}
+band kar

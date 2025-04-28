@@ -1,0 +1,2 @@
+type Constrained[T] = list[int]
+band kar

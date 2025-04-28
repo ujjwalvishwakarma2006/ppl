@@ -1,0 +1,2 @@
+type BadTuple = tuple(int, str
+band kar

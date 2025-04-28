@@ -1,0 +1,2 @@
+type DictNoColon = dict{int str}
+band kar

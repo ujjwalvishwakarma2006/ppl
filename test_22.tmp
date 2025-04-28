@@ -1,0 +1,2 @@
+type BadDict = dict{str:str
+band kar

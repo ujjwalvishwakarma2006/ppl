@@ -1,0 +1,2 @@
+type MixedMap = Dict{int:List[str]}
+band kar

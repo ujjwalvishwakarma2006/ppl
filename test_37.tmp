@@ -1,0 +1,2 @@
+type M = dict{list[int]: str}
+band kar

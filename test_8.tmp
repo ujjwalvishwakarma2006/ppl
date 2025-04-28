@@ -1,0 +1,2 @@
+type NameMap = dict{str:str}
+band kar

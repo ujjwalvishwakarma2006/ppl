@@ -1,0 +1,2 @@
+type EmptyDict = dict{}
+band kar

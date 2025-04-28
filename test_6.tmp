@@ -1,0 +1,2 @@
+type StringList = List[str]
+band kar

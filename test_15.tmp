@@ -1,0 +1,2 @@
+type GenericMap[K, V] = dict{K:V}
+band kar
